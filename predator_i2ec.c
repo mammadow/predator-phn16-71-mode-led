@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: GPL-2.0-only
 /*
  * predator_i2ec.c - Acer Predator Helios Neo 16 (PHN16-71) EC / Mode-LED tool
  *

@@ -343,3 +343,7 @@ no Mode-button presets).
 | `--restore` writes `0x1823`, `0x0A07`, `0x1610`, `0x1612`, `0x0500` | Arbitrary writes (`0x1610`/`0x1612` are GPIO-config registers for GPA0/GPA2, and `0x0500` is ACPI EC byte 0, currently `0x04`). Removed. |
 | `0x1520`/`0x1522` = SMBus channel C | The IT5570 SMBus controllers are at `0x1C00+`. |
 
+## License
+
+GPL-2.0 (see `LICENSE`). That covers the tool, the scripts and `acer_gkbd/`, which as a
+Linux kernel module is GPL-2.0 anyway.
