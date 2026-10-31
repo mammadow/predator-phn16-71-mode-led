@@ -1,0 +1,24 @@
+# build outputs (make / mingw32-make)
+/predator_i2ec
+/predator_i2ec.exe
+
+# old tool and notes (kept only locally)
+/orig_backup/
+
+# logs the experiment scripts write
+*.log
+windows/*_sniff.txt
+
+# kernel module build (acer_gkbd/)
+*.o
+*.ko
+*.mod
+*.mod.c
+.*.cmd
+Module.symvers
+modules.order
+
+# local firmware/ACPI dumps: machine-specific, and the MSDM table holds the Windows product key
+/acpi/
+*.aml
+*.fd

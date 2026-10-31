@@ -1,0 +1,5 @@
+* text=auto
+# built on Linux and Windows: keep C sources and Makefiles LF everywhere
+*.c text eol=lf
+*.h text eol=lf
+Makefile text eol=lf
