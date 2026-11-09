@@ -1,5 +1,7 @@
 # Acer Predator Helios Neo 16 (PHN16-71): Mode-button LED
 
+[![CI](https://github.com/mammadow/predator-phn16-71-mode-led/actions/workflows/ci.yml/badge.svg)](https://github.com/mammadow/predator-phn16-71-mode-led/actions/workflows/ci.yml) [![License: GPL v2](https://img.shields.io/badge/License-GPL_v2-blue.svg)](LICENSE)
+
 Reverse-engineering notes and a tool for the Mode-button LED on the PHN16-71
 (Quanta "Compass_RTX" board, BIOS V1.20, ITE **IT5570E** EC, chip ID `0x5570`).
 The same tool runs on Linux and Windows.
